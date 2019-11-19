@@ -14,6 +14,7 @@
 		F097F4D52384312300A17036 /* MyNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F097F4D32384312300A17036 /* MyNotes.xcdatamodeld */; };
 		F097F4D72384312400A17036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F097F4D62384312400A17036 /* Assets.xcassets */; };
 		F097F4DA2384312400A17036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F097F4D82384312400A17036 /* LaunchScreen.storyboard */; };
+		F097F4E22384335300A17036 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F097F4E12384335300A17036 /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F097F4D62384312400A17036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F097F4D92384312400A17036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F097F4DB2384312400A17036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F097F4E12384335300A17036 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F097F4D82384312400A17036 /* LaunchScreen.storyboard */,
 				F097F4DB2384312400A17036 /* Info.plist */,
 				F097F4D32384312300A17036 /* MyNotes.xcdatamodeld */,
+				F097F4E12384335300A17036 /* NotesTableViewController.swift */,
 			);
 			path = MyNotes;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				F097F4CB2384312300A17036 /* AppDelegate.swift in Sources */,
 				F097F4CD2384312300A17036 /* SceneDelegate.swift in Sources */,
 				F097F4D52384312300A17036 /* MyNotes.xcdatamodeld in Sources */,
+				F097F4E22384335300A17036 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bri.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Bri.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
